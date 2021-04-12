@@ -8,13 +8,9 @@
 </head>
 <body>
 
-    <?php
-            <form enctype="multipart/form-data" method="post" action="index.php?p?=uploadpost">
-            File yang diupload = <input type="file" name="fupload"> <br>
-            <br> <input type="submit" value="Upload!">
-            </form>
-
-
-    ?>    
+    <form enctype="multipart/form-data" method="post" action="index.php?p=uploadpost">
+    	File yang diupload = <input type="file" name="fupload"><br>
+    	<br><input type="submit" value="Upload">
+    </form>
 </body>
 </html>
